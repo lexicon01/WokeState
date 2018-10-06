@@ -1,0 +1,26 @@
+{
+    "name": "wokestate",
+    "version": "1.0.0",
+    "description": "Practice project on github bout being woke",
+    "main": "index.js",
+    "scripts": {
+      "compile:sass": "node-sass scss/main.scss style.css -w",
+      "devserver": "live-server",
+      "start": "npm-run-all --parallel devserver watch:sass",
+      
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/lexicon01/ArtStudio.git"
+    },
+    "author": "Lexicon",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/lexicon01/ArtStudio/issues"
+    },
+    "homepage": "https://github.com/lexicon01/ArtStudio#readme",
+    "devDependencies": {
+      "node-sass": "^4.9.2"
+    }
+  }
+  
