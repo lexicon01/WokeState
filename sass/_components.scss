@@ -210,3 +210,18 @@
 
     
 }
+
+///////////////////////////////// 
+////////  GALLERY
+
+.gallery {
+
+    display: flex;
+
+    &__photo {
+        display: block;
+        width: 450px;
+        max-width: 100%; 
+        max-height: 450px; 
+    }
+}
