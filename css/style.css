@@ -76,12 +76,18 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center; }
+  @media only screen and (max-width: 31.25em) {
+    .header {
+      flex-wrap: wrap; } }
 
 .content {
   display: flex; }
   @media only screen and (max-width: 56.25em) {
     .content {
       flex-direction: column; } }
+  @media only screen and (max-width: 31.25em) {
+    .content {
+      margin-top: 2.5rem; } }
 
 .sidebar {
   background-color: var(--color-grey-dark-1);
@@ -94,6 +100,9 @@ body {
       display: flex;
       flex: none;
       margin: 0; } }
+  @media only screen and (max-width: 31.25em) {
+    .sidebar {
+      margin-top: 1rem; } }
 
 .hotel-view {
   background-color: #fff;
@@ -147,6 +156,11 @@ body {
   display: flex;
   align-items: center;
   justify-content: center; }
+  @media only screen and (max-width: 31.25em) {
+    .search {
+      order: 1;
+      flex: 0 0 100%;
+      background-color: #fff; } }
   .search__input {
     font-family: inherit;
     font-size: inherit;

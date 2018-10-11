@@ -22,6 +22,10 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+    @media only screen and (max-width: $bp-smallest) {
+        flex-wrap: wrap;
+    }
 }
 
 .content {
@@ -29,6 +33,9 @@
 
     @media only screen and (max-width: $bp-medium) {
         flex-direction: column;
+    }
+    @media only screen and (max-width: $bp-smallest) {
+        margin-top: 2.5rem;
     }
 }
 
@@ -44,6 +51,9 @@
         display: flex;
         flex:none;
         margin: 0;
+    }
+    @media only screen and (max-width: $bp-smallest) {
+        margin-top: 1rem;
     }
 }
 
