@@ -92,6 +92,7 @@ body {
   @media only screen and (max-width: 56.25em) {
     .sidebar {
       display: flex;
+      flex: none;
       margin: 0; } }
 
 .hotel-view {
@@ -248,7 +249,9 @@ body {
   padding: 2.5rem; }
   @media only screen and (max-width: 56.25em) {
     .legal {
-      display: none; } }
+      display: none;
+      margin: 0;
+      padding: 0; } }
 
 .gallery {
   display: flex; }
