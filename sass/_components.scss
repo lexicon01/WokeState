@@ -328,6 +328,13 @@
     cursor: pointer;
     transition: all .2s;
 
+   
+
+    @media only screen and (max-width: $bp-small) {
+        display: block;
+        margin: 0 auto;
+    }
+
     & span {
         margin-left: 3px;
         transition: margin-left .2s;
